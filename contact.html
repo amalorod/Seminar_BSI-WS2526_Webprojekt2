@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <script src="scripts_contact.js" defer ></script>
+        <link rel="stylesheet" href="styles_contact.css">
+        <link rel="icon" type="image/png" href="Bilder/icons8-fu%C3%9Fball-2-94.png">
+
+        <meta charset="UTF-8" />
+        <title>Das Sportarten Lexikon</title>
+    </head>
+    <body>
+    
+    <h1> Sehe und staune! Die spannendsten Sportarten weltweit!</h1>
+      
+        <img src="Bilder/fu%C3%9Fball%202.png" id="Seitenrand1">
+        <img src="Bilder/basketball.png" id="Seitenrand2">
+        
+        <div class="container">
+           
+   <div class="flexbox">
+        
+  <label for="fname">Dein Vorname:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Dein Nachname:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+    <label for="fname"> Deine E-Mail:</label>
+        <input type="email" id="name"> <br> <br>
+    <label for="fname"> Dein Alter:</label>
+        <input type="number" id="alter"> <br> <br>
+            
+       
+        </div>
+                
+       <div class="flexbox">
+            <p>Dein Lieblingstier:</p> <br> <br>
+            <input type="radio" id="hund" name="fav_language" value="Hund">
+  <label for="hund">Hund</label><br>
+  <input type="radio" id="katze" name="fav_language" value="Katze">
+  <label for="katze">Katze</label><br>
+  <input type="radio" id="maus" name="fav_language" value="Maus">
+  <label for="maus">Maus</label>
+           
+           <br> <br>
+ 
+            <p>Deine Interessen:</p> <br> <br>
+
+           
+            <input type="checkbox" id="Fussball" value="Fussball">
+            <label for="Fussball"> Fußball</label> <br> <br>
+            
+           <input type="checkbox" id="Basketball" value="Basketball">
+            <label for="Basketball"> Basketball</label> <br> <br>
+           
+             <input type="checkbox" id="Volleyball" value="Volleyball">
+            <label for="Volleyball"> Volleyball</label> <br> <br>
+           
+       </div>
+    <div class="flexbox">
+            
+            <p>Wie bist du auf diese Seite aufmerksam geworden?<p>
+  <select name="Aufmerksam" id="attention">
+    <option disabled selected value>Auswahl </option>
+    <option value="fernseher">Fernsehwerbung</option>
+    <option value="linkedin">LinkedIn</option>
+    <option value="radio">Radio</option>
+    <option value="socialmedia">Social Media</option>
+  </select>
+  <br><br>
+        
+        </div>
+            
+            <div class="flexbox"> 
+            <p> Wie geht es dir heute?</p>
+            <textarea id="eigeneMeinung" name="meinung" rows="4" cols="50"></textarea>
+  <br>
+       </div>
+       
+       
+        <div class="flexbox">
+    <button id="myBtn">Abschicken</button>
+            </div>
+   
+        
+        <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+    <div id="AusgabeGesamt"></div> <br>
+
+    <a href="index.html">Mit diesen Daten fortfahren</a>
+  </div>
+
+</div>
+
+</div>
+        
+
+        
+        
+        
+    
+    
+    </body>
+</html>

@@ -1,0 +1,264 @@
+body { 
+    background-image: url(Bilder/blue-clouds-day-fluffy-53594.jpeg);
+    background-attachment: scroll;
+    font-family: sans-serif;
+    font-size: 20px;
+
+
+}
+
+
+h1 { font-family: sans-serif;          
+    font-size: 50px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    background-color: skyblue;
+    color: white;
+}
+
+
+
+img { border: 8px;
+        height: 200px;
+        width: 300px;
+    margin:10px;
+
+} 
+
+
+
+
+
+ 
+
+
+.Inhalt { margin-left: 20px;}
+
+
+a { 
+
+
+
+ border-color: skyblue;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom:10px;
+    background-color: skyblue;
+
+
+
+}
+
+a:hover {
+
+
+    cursor:default; 
+    padding: 10px;
+    transition-duration: 0.5s;
+    font-size: 20px;
+    background-color: skyblue;
+
+
+  
+}
+
+a:visited {
+
+text-decoration: none;
+color: black;
+
+}
+
+
+.flexbox {
+   
+    background-color: skyblue;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin: 30px;
+    border-radius:15px;
+    padding:10px;
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {display:flex;
+
+align-content: center;
+    
+justify-content: center;
+width: auto; 
+flex-wrap: wrap;
+    margin: auto;
+
+
+}
+
+button {
+    
+    border-color: darkblue;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom:10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+    
+    
+}
+
+button:hover {
+    
+    
+    cursor:default; 
+    padding: 10px;
+    transition-duration: 0.5s;
+    font-size: 30px;
+    background-color: royalblue;
+    color: white;
+    font-family: sans-serif;
+    
+   
+}
+
+
+textarea {
+    
+    background-color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 350px;
+    
+}
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  border-radius:10px;
+ 
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  border-radius:10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+select {
+    background-color: white;
+    border-radius: 10px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+input{
+    
+    
+    background-color: white;
+    border-radius: 10px;
+    height: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: firebrick;
+}
+
+
+#Seitenrand1 {
+    
+    
+    
+    height: 380px;
+    width: 280px;
+    right: 20px;
+    position: fixed;
+    z-index: -1;
+   
+    
+    
+    
+    
+    
+    
+}
+
+#Seitenrand2 {
+    
+    
+    
+    height: 380px;
+    width: 280px;
+    position: fixed;
+    z-index: -1;
+   
+    left: 20px;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
